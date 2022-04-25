@@ -10,6 +10,7 @@ import expectedResult from "../../input/result_output.csv";
 
 export const actions = {
   LOAD_DATA: function ({ commit }) {
+    // Load data from csv files
     Model.data = {
       input: {
         barcodesA,

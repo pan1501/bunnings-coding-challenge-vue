@@ -42,14 +42,7 @@ describe("exportButton tests", () => {
     const wrapper = mount(<exportButton output={output} />);
     expect(wrapper.html()).toContain("Export csv");
     const button = wrapper.find("button");
-    console.log(button);
-    button.trigger("click");
-  });
 
-  it("button click without empty output", () => {
-    // expect(wrapper.vm.message).toBe("");
-    // const button = wrapper.find("button");
-    // button.trigger("click");
-    // expect(wrapper.vm.message).toBe("TRY AGAIN");
+    button.trigger("click");
   });
 });
