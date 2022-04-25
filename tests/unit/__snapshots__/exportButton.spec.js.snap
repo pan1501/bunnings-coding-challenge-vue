@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`exportButton tests renders exportButton 1`] = `
+Object {
+  "__v_isVNode": true,
+  "__v_skip": true,
+  "anchor": null,
+  "appContext": null,
+  "children": null,
+  "component": null,
+  "dirs": null,
+  "dynamicChildren": null,
+  "dynamicProps": null,
+  "el": null,
+  "key": null,
+  "patchFlag": 0,
+  "props": Object {
+    "output": Array [
+      Object {
+        "Description": "Tea - Decaf 1 Cup",
+        "SKU": "165-rcy-650",
+        "Source": "A",
+      },
+      Object {
+        "Description": "Cheese - Grana Padano",
+        "SKU": "167-eol-949",
+        "Source": "A",
+      },
+      Object {
+        "Description": "Bread - Raisin",
+        "SKU": "280-oad-768",
+        "Source": "A",
+      },
+      Object {
+        "Description": "Walkers Special Old Whiskey",
+        "SKU": "647-vyk-317",
+        "Source": "A",
+      },
+      Object {
+        "Description": "Carbonated Water - Lemon Lime",
+        "SKU": "650-epd-782",
+        "Source": "A",
+      },
+      Object {
+        "Description": "Cheese - Grana Padano",
+        "SKU": "999-eol-949",
+        "Source": "B",
+      },
+      Object {
+        "Description": "Carbonated Water - Lemon Lime",
+        "SKU": "999-epd-782",
+        "Source": "B",
+      },
+    ],
+  },
+  "ref": null,
+  "scopeId": null,
+  "shapeFlag": 4,
+  "slotScopeIds": null,
+  "ssContent": null,
+  "ssFallback": null,
+  "staticCount": 0,
+  "suspense": null,
+  "target": null,
+  "targetAnchor": null,
+  "transition": null,
+  "type": Object {
+    "methods": Object {
+      "exportCSV": [Function],
+    },
+    "name": "exportButton",
+    "props": Object {
+      "output": [Function],
+    },
+    "render": [Function],
+  },
+}
+`;

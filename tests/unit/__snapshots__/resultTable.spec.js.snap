@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`resultTable tests with correct data renders the correct body 1`] = `
+<div class="resultTable">
+  <h3></h3>
+  <table>
+    <tr></tr>
+    <tr>
+      <td>165-rcy-650</td>
+      <td>Tea - Decaf 1 Cup</td>
+      <td class="source">A</td>
+    </tr>
+    <tr>
+      <td>167-eol-949</td>
+      <td>Cheese - Grana Padano</td>
+      <td class="source">A</td>
+    </tr>
+  </table>
+</div>
+`;
+
+exports[`resultTable tests with correct data renders the correct headers 1`] = `
+<div class="resultTable">
+  <h3></h3>
+  <table>
+    <tr>
+      <th>SKU</th>
+      <th>Description</th>
+      <th>Source</th>
+    </tr>
+  </table>
+</div>
+`;
+
+exports[`resultTable tests with empty data renders empty body 1`] = `
+<div class="resultTable">
+  <h3></h3>
+  <table>
+    <tr></tr>
+  </table>
+</div>
+`;
+
+exports[`resultTable tests with empty data renders empty headers 1`] = `
+<div class="resultTable">
+  <h3></h3>
+  <table>
+    <tr></tr>
+  </table>
+</div>
+`;
+
+exports[`resultTable tests with empty data renders empty title 1`] = `
+<div class="resultTable">
+  <h3></h3>
+  <table>
+    <tr></tr>
+  </table>
+</div>
+`;
